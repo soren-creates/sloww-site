@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sloww: Sunrise, Sunset & Moon Phase Clock for iOS</title>
+  <meta name="description" content="Track sunrise, sunset, twilight, golden hour, and moon phases in a beautiful 24-hour solar clock. Free on the App Store.">
+  <link rel="canonical" href="https://sloww.app/"><!-- TODO: update with final domain -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:title" content="Sloww: Your day has a shape">
+  <meta property="og:description" content="A 24-hour solar and lunar clock. No alerts. No noise. Just natural time, at a glance.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://sloww.app/og-image.jpg"><!-- TODO: create 1200x630 image -->
+  <meta property="og:url" content="https://sloww.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Sloww",
+    "operatingSystem": "iOS",
+    "applicationCategory": "UtilitiesApplication",
+    "description": "A 24-hour solar and lunar clock showing sunrise, sunset, twilight, golden hour, moon phases, and seasons from your location.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "screenshot": "https://sloww.app/images/sloww-clock-face.png",
+    "url": "https://sloww.app/"
+  }
+  </script>
+</head>
+<body>
+<main>
+
+  <!-- ── Hero ── -->
+  <section class="hero" aria-label="Sloww app introduction">
+    <img src="images/sloww-text-logo.png" alt="Sloww" class="hero-logo">
+
+    <div class="hero-clock">
+      <img src="images/sloww-clock-face.png" alt="Sloww, a 24-hour solar and lunar clock" width="480" height="480">
+    </div>
+
+    <h1>Your day has a shape</h1>
+    <p>A clock that moves with the sun and the moon,<br>so you can stop living by the minute and start feeling each day.</p>
+
+    <span class="hero-cta coming-soon">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Coming soon on iOS
+    </span>
+  </section>
+
+  <!-- ── Tagline band ── -->
+  <div class="tagline-band fade-in">
+    <p>No alerts. No noise.<br>Just natural time, at a glance.</p>
+  </div>
+
+  <!-- ── Features grid ── -->
+  <section class="features">
+    <div class="features-grid">
+      <div class="feature-card fade-in">
+        <div class="feature-icon icon-sun">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </div>
+        <h3>The Sun Ring</h3>
+        <p>A golden arc traces your daylight from sunrise to sunset. It stretches through summer and shrinks in winter. Your day's shape, always changing.</p>
+      </div>
+
+      <div class="feature-card fade-in">
+        <div class="feature-icon icon-twilight">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 18a5 5 0 0 0-10 0"/><line x1="12" y1="9" x2="12" y2="2"/><line x1="4.22" y1="10.22" x2="5.64" y2="11.64"/><line x1="1" y1="18" x2="3" y2="18"/><line x1="21" y1="18" x2="23" y2="18"/><line x1="18.36" y1="11.64" x2="19.78" y2="10.22"/><line x1="23" y1="22" x2="1" y2="22"/></svg>
+        </div>
+        <h3>Dawn & Dusk</h3>
+        <p>Sunset isn't a switch. It's a slow, beautiful fade. Three twilight bands and golden hour highlights show you the whole transition.</p>
+      </div>
+
+      <div class="feature-card fade-in">
+        <div class="feature-icon icon-moon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </div>
+        <h3>The Moon Ring</h3>
+        <p>An inner ring tracks the moon across your sky. The icon shows tonight's phase: full, crescent, new. Updating as the cycle turns.</p>
+      </div>
+
+      <div class="feature-card fade-in">
+        <div class="feature-icon icon-year">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="1"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
+        </div>
+        <h3>Lunar Cycle & Seasons</h3>
+        <p>Delicate inner rings track the 29.5-day lunar cycle and the year's progress. Solstices, equinoxes, and where you are right now.</p>
+      </div>
+
+      <div class="feature-card fade-in">
+        <div class="feature-icon icon-breath">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12" stroke-dasharray="4 4"/></svg>
+        </div>
+        <h3>Box Breathing</h3>
+        <p>The innermost ring guides a calming 16-second cycle. Inhale, hold, exhale, hold. A small moment of stillness, whenever you need it.</p>
+      </div>
+
+      <div class="feature-card fade-in">
+        <div class="feature-icon icon-location">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>Any Place on Earth</h3>
+        <p>Search any city or enter coordinates. Save your favorites and see what daylight looks like on the other side of the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Rings showcase ── -->
+  <section class="rings-section fade-in">
+    <h2>Six rings. One clock.</h2>
+    <p>Toggle each ring on or off. Show everything, or just what matters to you right now.</p>
+
+    <div class="rings-list">
+      <div class="ring-item">
+        <div class="ring-dot" style="border-color: #e2b42e; color: #e2b42e;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/></svg>
+        </div>
+        <span>Sun</span>
+      </div>
+      <div class="ring-item">
+        <div class="ring-dot" style="border-color: #3e5288; color: #5d7bcc;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 18a5 5 0 0 0-10 0"/><line x1="12" y1="9" x2="12" y2="2"/></svg>
+        </div>
+        <span>Twilight</span>
+      </div>
+      <div class="ring-item">
+        <div class="ring-dot" style="border-color: #7a5eaa; color: #b89de0;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </div>
+        <span>Moon</span>
+      </div>
+      <div class="ring-item">
+        <div class="ring-dot" style="border-color: #e8d4ff; color: #e8d4ff;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/></svg>
+        </div>
+        <span>Lunar Cycle</span>
+      </div>
+      <div class="ring-item">
+        <div class="ring-dot" style="border-color: #7ee3a0; color: #ffe870;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>
+        </div>
+        <span>Year</span>
+      </div>
+      <div class="ring-item">
+        <div class="ring-dot" style="border-color: #5ec4b0; color: #5ec4b0;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10" stroke-dasharray="4 4"/></svg>
+        </div>
+        <span>Breath</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Widgets ── -->
+  <section class="widgets-section fade-in">
+    <h2>Widgets for Home & Lock Screen</h2>
+    <p>Three Home Screen sizes. Eight Lock Screen widgets.<br>Sunrise, sunset, moon phase, daylight remaining, and more. Always a glance away.</p>
+  </section>
+
+  <!-- ── Bottom CTA ── -->
+  <section class="bottom-cta fade-in" id="download">
+    <h2>Take back your time</h2>
+    <p>Sloww is coming soon to the App Store.</p>
+    <span class="hero-cta coming-soon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Coming soon on iOS
+    </span>
+  </section>
+
+</main>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-links">
+      <a href="pages/privacy.html">Privacy</a>
+      <a href="pages/support.html">Support</a>
+    </div>
+    <img src="images/sloww-text-logo.png" alt="Sloww" class="footer-logo">
+    <p>&copy; 2026 Sloww</p>
+    <p style="margin-top: 0.5rem;">Hero photo via iStock</p>
+  </footer>
+
+  <!-- ── Scroll fade-in observer ── -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

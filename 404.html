@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — Sloww</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0a0a1e;
+      --fg: #c4c4dc;
+      --fg-dim: #8b8ba6;
+      --fg-muted: #5c5c7c;
+    }
+
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .error-page {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .error-page h1 {
+      font-size: clamp(3rem, 10vw, 5rem);
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+    }
+
+    .error-page p {
+      color: var(--fg-dim);
+      font-size: 1.1rem;
+      margin-bottom: 2.5rem;
+      white-space: nowrap;
+    }
+
+    .error-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.75rem;
+      border-radius: 100px;
+      background: #fff;
+      color: var(--bg);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .error-cta:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2.5rem 2rem;
+      border-top: 1px solid rgba(196, 196, 220, 0.06);
+      color: var(--fg-muted);
+      font-size: 0.8rem;
+    }
+
+    .footer-logo {
+      height: 20px;
+      width: auto;
+      margin-bottom: 1rem;
+      filter: brightness(0) invert(85%) sepia(8%) saturate(400%) hue-rotate(201deg);
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    footer a {
+      color: var(--fg-dim);
+      text-decoration: none;
+    }
+
+    footer a:hover { color: var(--fg); }
+  </style>
+</head>
+<body>
+
+<div class="error-page">
+  <h1>404</h1>
+  <p>This page doesn't exist. The sun still rises, though.</p>
+  <a href="index.html" class="error-cta">Back to Sloww</a>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="pages/privacy.html">Privacy</a>
+    <a href="pages/support.html">Support</a>
+  </div>
+  <img src="images/sloww-text-logo.png" alt="Sloww" class="footer-logo">
+  <p>&copy; 2026 Sloww</p>
+</footer>
+
+</body>
+</html>
