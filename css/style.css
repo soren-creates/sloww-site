@@ -101,12 +101,11 @@ footer a:hover { color: var(--fg); }
 }
 
 .hero-logo {
-  height: 28px;
-  width: auto;
+  width: min(700px, 90vw);
+  height: auto;
   margin-bottom: 2.5rem;
   position: relative;
   z-index: 1;
-  filter: brightness(0) invert(85%) sepia(8%) saturate(400%) hue-rotate(201deg);
 }
 
 .hero-clock {
@@ -135,8 +134,12 @@ footer a:hover { color: var(--fg); }
 .hero p {
   font-size: clamp(1rem, 2vw, 1.2rem);
   color: var(--fg-dim);
-  max-width: 440px;
+  max-width: 540px;
   line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.hero p:last-of-type {
   margin-bottom: 2.5rem;
 }
 
@@ -151,6 +154,7 @@ footer a:hover { color: var(--fg); }
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
+  white-space: nowrap;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -159,7 +163,23 @@ footer a:hover { color: var(--fg); }
   box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
 }
 
-.hero-cta svg { width: 18px; height: 18px; }
+.hero-cta svg { width: 22px; height: 22px; }
+
+.app-store-badge {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.app-store-badge:hover {
+  filter: brightness(1.2) drop-shadow(0 0 12px rgba(94, 196, 176, 0.3));
+}
+
+.app-store-badge img {
+  height: 48px;
+  width: auto;
+}
 
 .hero-cta.coming-soon {
   background: rgba(255, 255, 255, 0.12);
@@ -194,7 +214,7 @@ section {
   font-size: clamp(1.25rem, 3vw, 1.75rem);
   font-weight: 300;
   color: var(--fg-dim);
-  max-width: 580px;
+  max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
 }
