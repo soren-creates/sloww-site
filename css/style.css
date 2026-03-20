@@ -124,11 +124,13 @@ footer a:hover { color: var(--fg); }
 
 .hero h1 {
   font-size: clamp(2rem, 5vw, 3.5rem);
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: -0.02em;
   line-height: 1.2;
   margin-bottom: 1.25rem;
   max-width: 600px;
+  color: #A48FFF;
+  text-shadow: 0 0 20px rgba(164, 143, 255, 0.5), 0 0 40px rgba(164, 143, 255, 0.3);
 }
 
 .hero p {
