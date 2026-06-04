@@ -190,6 +190,15 @@ footer a:hover { color: var(--fg); }
   text-shadow: 0 0 24px rgba(164, 143, 255, 0.45), 0 0 48px rgba(164, 143, 255, 0.25);
 }
 
+/* The payoff line blooms brighter than the setup — lighter periwinkle + warmer glow */
+.h1-accent {
+  color: #cfc3ff;
+  text-shadow:
+    0 0 18px rgba(176, 158, 255, 0.85),
+    0 0 40px rgba(176, 158, 255, 0.60),
+    0 0 80px rgba(164, 143, 255, 0.35);
+}
+
 .hero-copy > p {
   font-size: clamp(1rem, 2vw, 1.2rem);
   color: var(--fg-dim);
