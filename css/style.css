@@ -227,42 +227,6 @@ footer a:hover { color: var(--fg); }
   width: auto;
 }
 
-/* ── Hero price + social proof ── */
-.hero-meta {
-  margin-top: 1.15rem;
-}
-
-.hero-price {
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--fg-dim);
-  margin-bottom: 0.5rem;
-}
-
-.hero-proof {
-  font-family: var(--font-mono);
-  font-size: 0.82rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--fg-dim);
-}
-
-.hero-stars {
-  display: inline-flex;
-  gap: 1px;
-  vertical-align: -0.22em;
-  margin-right: 0.2rem;
-  color: var(--gold);
-}
-
-.hero-stars svg {
-  width: 24px;
-  height: 24px;
-}
-
 /* ── Section shared ── */
 section {
   padding: 6rem 2rem;
