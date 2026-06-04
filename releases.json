@@ -1,0 +1,74 @@
+{
+  "appId": "6759274049",
+  "_comment": "Canonical, user-facing what's-changed. Single source of truth — mirrors VersionUpdate.history in the app. The in-app What's Changed screen, the App Store 'What's New' (via scripts/whats_new.py), and the website Almanac all read from this. Write it once here.",
+  "releases": [
+    {
+      "version": "1.1",
+      "date": "2026-04-18",
+      "theme": "Always With You",
+      "tagline": "Your nightstand, your lock screen, your pocket, your voice.",
+      "features": [
+        {
+          "title": "Sunset Live Activity",
+          "description": "A lock screen countdown from golden hour through civil twilight, with a segmented progress bar and phase labels.",
+          "blurb": "Countdown on your lock screen as the sun goes down. Ends after civil twilight."
+        },
+        {
+          "title": "Night Mode",
+          "description": "After sunset, the clock warms to a dark palette that preserves your dark-adapted eyes. Three modes: Off, Dark at Sunset, or Dark plus Red.",
+          "blurb": "Automatically darkens at sunset and shifts to a mono-red palette at nautical twilight. Gentle on dark-adapted eyes."
+        },
+        {
+          "title": "Celestial Bells",
+          "description": "A gentle vibration or notification at sunrise, sunset, golden hour, moonrise, and more. Choose per event. Set lead times for the ones you want to anticipate.",
+          "blurb": "Vibrations and notifications at celestial moments. Choose per event, set lead times, and stay connected to the sky."
+        },
+        {
+          "title": "StandBy Widgets",
+          "description": "Three bedside clocks for iPhone's StandBy mode: a minimal dial, a countdown to the next light transition, and tonight's moon phase.",
+          "blurb": "Three new widgets for your nightstand. The clock keeps watch while you sleep."
+        },
+        {
+          "title": "Ask Siri",
+          "description": "Seventeen voice intents across the sun, the moon, the seasons, and the shape of your day. Also available in the Shortcuts app.",
+          "blurb": "Ask Siri about sunrise, moonrise, golden hour, and more. The clock answers without opening."
+        },
+        {
+          "title": "Today's Shape",
+          "description": "A lyrical daily briefing generated from the solar and lunar character of the day.",
+          "blurb": "Ask Siri to tell you about today's shape. A lyrical briefing on the character of the day."
+        },
+        {
+          "title": "Settings Lock",
+          "description": "Prevents accidental toggle changes. Long-press empty space to edit, tap Done when finished.",
+          "blurb": "Lock your controls so casual touches don't change your view. Long-press to edit, tap Done when finished."
+        },
+        {
+          "title": "Hour Labels Toggle",
+          "store": false,
+          "description": "Long-press the hour toggle to hide text labels while keeping tick marks. A quieter clock face."
+        },
+        {
+          "title": "Time-Travel Accessibility",
+          "store": false,
+          "description": "VoiceOver users get dedicated buttons for stepping through time, with spoken announcements at each step."
+        }
+      ],
+      "note": "Plus a redesigned Guide, dozens of polish fixes, and some improvements for edge cases around polar latitudes and location failures."
+    },
+    {
+      "version": "1.0",
+      "date": "2026-03-20",
+      "theme": "Launch",
+      "tagline": "Your day has a shape.",
+      "features": [
+        { "title": "24-Hour Solar Clock", "description": "The full day at a glance. Sun position, rise and set, twilight bands, all computed from your location." },
+        { "title": "Moon Ring", "description": "Moon position, rise and set arc, and phase icon on the clock face." },
+        { "title": "Lunar Cycle Ring", "description": "A monthly ring showing where you are in the lunar month, with cardinal phase markers." },
+        { "title": "Year Ring", "description": "Seasonal markers and solstice/equinox positions. Watch the year turn." },
+        { "title": "Breath Ring", "description": "Four breathing patterns — box, coherent, 4-7-8, and extended exhale. A quiet companion." },
+        { "title": "Home Screen Widgets", "description": "Small, medium, and large widgets. The clock on your home screen, always current." }
+      ]
+    }
+  ]
+}

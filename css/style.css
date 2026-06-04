@@ -96,7 +96,16 @@ footer a:hover { color: var(--fg); }
 
 .footer-tagline {
   color: var(--fg-dim);
+  margin-bottom: 0.5rem;
+}
+
+.footer-version {
+  color: var(--fg-muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
   margin-bottom: 1.25rem;
+  min-height: 1em;
 }
 
 
