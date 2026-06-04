@@ -558,6 +558,30 @@ section {
   z-index: 1;
   max-width: 420px;
   margin: 0 auto;
+}
+
+/* Compact variant duplicated into the hero: ~80% scale, centered badge, no social proof */
+.hero-copy .pricing-card {
+  margin: 2.25rem 0 0;
+  max-width: 380px;
+  padding: 1.85rem 2rem 1.95rem;
+  text-align: center;
+}
+
+.hero-copy .pricing-card .price {
+  margin-bottom: 1.1rem;
+}
+
+.hero-copy .pricing-card .price-list {
+  gap: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.hero-copy .pricing-card .app-store-badge img {
+  height: 57.6px; /* +20% from the base 48px */
+}
+
+.pricing-card {
   padding: 2.75rem 2.5rem 2.5rem;
   border-radius: 24px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0)), var(--bg-raised);
