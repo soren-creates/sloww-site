@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Local device-image working files (not part of the site)
+device-images/
