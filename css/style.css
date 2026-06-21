@@ -193,6 +193,31 @@ footer a:hover { color: var(--fg); }
 }
 
 /* The payoff line blooms brighter than the setup — lighter periwinkle + warmer glow */
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.3rem;
+  padding: 0.34rem 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffcc95;
+  background: rgba(255, 191, 123, 0.10);
+  border: 1px solid rgba(255, 191, 123, 0.35);
+  border-radius: 999px;
+}
+
+.hero-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 8px rgba(255, 191, 123, 0.85);
+}
+
 .h1-accent {
   color: #cfc3ff;
   text-shadow:

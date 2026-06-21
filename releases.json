@@ -3,6 +3,27 @@
   "_comment": "Canonical, user-facing what's-changed. Single source of truth — mirrors VersionUpdate.history in the app. The in-app What's Changed screen, the App Store 'What's New' (via scripts/whats_new.py), and the website Almanac all read from this. Write it once here.",
   "releases": [
     {
+      "version": "1.2",
+      "date": "2026-06-21",
+      "theme": "On Every Screen",
+      "tagline": "Your wrist, your iPad, the same sky.",
+      "features": [
+        {
+          "title": "Sloww on Apple Watch",
+          "description": "The whole clock face on your wrist — sun, moon, and twilight rings drawn from your watch's own location. Always-On keeps it glanceable, and tapping a complication opens it."
+        },
+        {
+          "title": "Apple Watch Complications",
+          "description": "Sloww Sun and Sloww Moon on your watch face: the sun's arc through the day and the next light event, tonight's phase, moonrise and moonset."
+        },
+        {
+          "title": "Made for iPad",
+          "description": "A native layout that lets the clock grow to fill the screen. In landscape, the clock and readout sit side by side."
+        }
+      ],
+      "note": "Plus a touch of life in the Guide, a fix for the sunset Live Activity countdown, and a stronger main-screen layout under the hood."
+    },
+    {
       "version": "1.1",
       "date": "2026-04-18",
       "theme": "Always With You",
