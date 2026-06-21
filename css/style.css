@@ -140,6 +140,7 @@ footer a:hover { color: var(--fg); }
   z-index: 1;
   width: 100%;
   max-width: 1120px;
+  container-type: inline-size;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   align-items: center;
@@ -155,14 +156,15 @@ footer a:hover { color: var(--fg); }
 .hero-device {
   min-width: 0;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .hero-device img {
   width: auto;
-  max-width: 100%;
-  max-height: min(82vh, 800px);
-  transform: rotate(5deg);
+  height: clamp(360px, 46cqw, 520px);
+  max-width: none;
+  transform: translate(6rem, 4.5rem);
   filter: drop-shadow(0 40px 90px rgba(0, 0, 0, 0.6));
 }
 
@@ -1145,7 +1147,8 @@ details p {
   .hero-copy { text-align: center; }
   .hero h1 { margin-left: auto; margin-right: auto; }
   .hero-copy > p { margin-left: auto; margin-right: auto; }
-  .hero-device img { width: 280px; max-width: 100%; height: auto; max-height: none; }
+  .hero-device { justify-content: center; order: -1; }
+  .hero-device img { width: 100%; max-width: 100%; height: auto; max-height: none; transform: none; }
 }
 
 /* Below the width where all five rings fit one row: force 3-over-2 (Year & Breath wrap together) */
